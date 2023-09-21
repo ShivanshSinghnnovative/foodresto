@@ -1,0 +1,2271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.top {
+    background-color: rgb(255, 228 , 1);
+    /* height: 750px; */
+    width: 100%;
+    position: relative;
+}
+
+.lsidewhite {
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* height: 750px; */
+    position: absolute;
+    z-index: 4;
+}
+
+.tophead {
+    padding: 18px 0 0 31px;
+}
+
+.firsttop {
+    display: flex;
+    justify-content: space-between;
+    z-index: 6;
+    position: relative;
+}
+.hamberger{
+    display: none;
+}
+.ls {
+    display: flex;
+    padding-right: 65px;
+    padding-top: 31px;
+    gap: 10px;
+}
+
+.f {
+    font-family: sans-serif;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.no {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.secondtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 90px;
+    font-family: sans-serif;
+    margin-right: 65px;
+    position: relative;
+    z-index: 7;
+    font-weight: 600;
+    padding-top: 15px;
+
+}
+
+.ttthird {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.thirdtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-top: 18px;
+    /* width: 50%; */
+    /* height: 500px; */
+    /* padding-left: 30px; */
+}
+
+.hung {
+    font-family: 'Brush Script MT';
+    white-space: nowrap;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.pasta {
+    margin-left: 53px;
+    height: 74px;
+}
+
+.leaf {
+    margin-left: 60px;
+    height: 60px;
+}
+
+.tthird {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.dont {
+    /* margin-left: 30px; */
+    margin-top: 28px;
+    text-align: center;
+}
+
+.lets {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    /* margin-left: 90px; */
+    font-family: sans-serif;
+    margin-top: 28px;
+}
+
+
+hr {
+    /* margin-left: 90px; */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 56%;
+    color: rgb(80, 78, 78);
+    border: 1px solid rgb(107, 52, 52);
+}
+
+.thour {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.orderbutton {
+    align-items: center;
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 42px;
+    background-color: red;
+}
+
+.orde {
+    text-align: center;
+    /* width: 100%; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fourthtop {
+    display: flex;
+    /* flex-direction: column; */
+    width: 50%;
+    /* margin-left: 700px; */
+    /* position: absolute; */
+    z-index: 6;
+    margin-top: 40px;
+    margin-left: -83px;
+    padding-bottom: 30px;
+}
+
+.tomato {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.kata {
+    margin-left: -150px;
+    margin-top: -140px;
+    position: relative;
+}
+
+.secondcontainer {
+    height: 45rem;
+    margin-top: -84px;
+
+}
+
+.choose {
+    text-align: center;
+}
+
+.lor {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    line-height: 1.4;
+}
+
+.ofood {
+    height: fit-content;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.skin {
+    width: 100%;
+    height: 100px;
+    background-color: #b7b774;
+    margin-top: 190px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oneorder {
+    margin-top: -130px;
+    width: 25%;
+}
+
+.twoorder {
+    margin-top: -130px;
+    width: 25%;
+}
+
+.threeorder {
+    margin-top: -130px;
+    width: 25%;
+}
+
+.ltd {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.secondlor {
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.shadow {
+    border-radius: 58%;
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#hideline{
+    display: none;
+}
+
+.yelloworder {
+    border: 2px solid yellow;
+    background-color: yellow;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.buttorder {
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.threeimage {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.ipsum {
+    padding: 10px 200px 0 200px;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.threeimg {
+    margin-top: 28px;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+}
+
+.oneimages {
+    width: 27%;
+
+    height: 18rem;
+    padding-top: 40px;
+}
+
+.threeimages {
+    width: 27%;
+    height: 18rem;
+    padding-top: 40px;
+}
+
+.twoimages {
+    width: 49%;
+    z-index: 100;
+    box-shadow: 0 0 50px 0 grey;
+    /* position: relative; */
+
+}
+
+.threedot {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.firstcircle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.secondcircle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.fourcontainer {
+    display: flex;
+    text-align: center;
+    gap: 0;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.lcont {
+    /* height: 25rem; */
+    position: relative;
+}
+
+.left1img {
+    height: 25rem;
+    margin-left: 103px;
+
+}
+
+.textimg1 {
+    position: absolute;
+    /* border: 2px solid white; */
+    top: 30px;
+    left: 130px;
+    width: 200px;
+}
+
+
+.when {
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.topfood {
+    text-align: left;
+    color: white;
+    top: 24px;
+    left: 130px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.rcont {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    margin-right: 90px;
+}
+
+.rtopimg {
+    height: 11rem;
+}
+
+.rtop1img {
+    position: relative;
+}
+
+.text2img {
+    position: absolute;
+    /* border: 2px solid white; */
+    top: 20px;
+    left: 30px;
+    width: 200px;
+}
+
+.try {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.rbotimg {
+    height: 11rem;
+}
+
+.text3img {
+    position: absolute;
+    /* border: 2px solid white; */
+    top: 20px;
+    left: 30px;
+    /* width: 200px; */
+}
+
+.rbot2img {
+    position: relative;
+}
+
+
+.fivecont {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.reservation {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    width: 50%;
+    gap: 30px 45px;
+    /* margin-left: 375px; */
+    margin-top: 30px;
+}
+
+.x {
+    height: 45px;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: orange;
+    border: 1px solid lightgray;
+}
+
+#submitbtn {
+    background-color: yellow;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+}
+
+.footer {
+    height: 400px;
+    margin-top: 70px;
+    padding-bottom: 0;
+
+}
+
+.footim {
+    height: 400px;
+    width: 100%;
+}
+
+.footimg {
+    background-image: url(./footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.textfooter {
+    position: absolute;
+    top: 44px;
+    left: 80px;
+}
+
+.footsecond {
+    position: absolute;
+    top: 160px;
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorefoot {
+    position: absolute;
+    left: 80px;
+    color: white;
+    line-height: 1.4;
+    font-family: sans-serif;
+    text-align: left;
+    width: 40%;
+    font-size: 18px;
+}
+
+.location {
+    position: absolute;
+    right: 300px;
+
+}
+
+i {
+    color: white;
+    font-size: 10px;
+}
+
+.zz {
+    font-size: 18px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    position: absolute;
+    left: 80px;
+    font-size: 18px;
+}
+
+.flo {
+    color: yellow;
+}
+
+.bottomfooter {
+    position: absolute;
+    /* top: 167px; */
+    width: 100%;
+    bottom: 80px;
+}
+
+.logofooter {
+    right: 50px;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+}
+
+.line {
+    display: flex;
+    gap: 35px;
+}
+
+.fb {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+i {
+    padding: 5px;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (min-width:2100px) {
+
+   .tthird{
+    width: 58%;
+   }
+    .lsidewhite {
+        width: 33%;
+        /* height: 850px; */
+    }
+
+    .fivecont {
+        /* text-align: center; */
+        margin-top: 140px;
+    }
+
+    .tophead {
+        padding: 23px 0 0 100px;
+        height: 127px;
+    }
+
+    .ip {
+        width: 15%;
+    }
+
+    .ls {
+        width: 20%;
+    }
+
+    .iphonepng {
+        width: 100%;
+    }
+
+    .f {
+        width: 74%;
+    }
+
+    .exp {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .no {
+        font-size: 37px;
+        font-weight: 600;
+    }
+
+    .threeimage {
+        /* text-align: center; */
+        margin-top: 60px;
+    }
+    .secondtop {
+
+        gap: 99px;
+
+        margin-right: 86px;
+
+        font-size: 27px;
+
+    }
+
+    .thirdtop {
+        margin-top: 0;
+        gap: 100px;
+    }
+
+    .leaf {
+        /* margin-left: 180px; */
+        height: 90px;
+    }
+
+    .hung {
+        font-size: 100px;
+    }
+
+    .pasta {
+        margin-left: 66px;
+        height: 94px;
+    }
+
+    .dont {
+        margin-left: 60px;
+        margin-top: 25px;
+        /* text-align: center; */
+    }
+
+    .lets {
+        font-size: 31px;
+        font-weight: 600;
+        /* text-align: center; */
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    hr {
+        width: 50%;
+        margin-left: 410px;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+
+    
+    .dontimg {
+        height: 100px;
+    }
+
+    .huur {
+        height: 100px;
+    }
+
+    .on {
+        height: 100px;
+    }
+
+    .orde {
+        margin-top: 39px;
+        margin-bottom: 70px;
+    }
+
+    .orderbutton {
+        font-size: 45px;
+       margin-top: 40px;
+       padding: 16px 0 20px 0;
+    }
+
+    .tamatar {
+        height: 120px;
+    }
+
+    .fourthtop {
+        gap: 5%;
+        /* margin-left: 150px; */
+        padding-bottom: 30px;
+    }
+
+    .chaw {
+        height: 100%;
+    }
+
+    .pati {
+        height: 120px;
+    }
+
+    .choosepng {
+        height: 86px;
+    }
+
+    .lor {
+        font-family: sans-serif;
+        font-size: 24px;
+        margin-top: 32px;
+        text-align: center;
+        margin-left: 331px;
+        margin-right: 331px;
+    }
+
+    .skin {
+        height: 117px;
+    }
+
+    .oneorder {
+        margin-top: -170px;
+        text-align: center;
+    }
+
+    .twoorder {
+        margin-top: -170px;
+        text-align: center;
+    }
+
+    .threeorder {
+        margin-top: -170px;
+        text-align: center;
+    }
+
+    .shadow {
+        height: 80%;
+    }
+
+    .secondcontainer {
+        height: 60rem;
+        margin-top: -25px;
+    }
+
+    .ltd {
+        margin-top: 34px;
+        font-size: 28px;
+    }
+
+    .secondlor {
+        font-size: 27px;
+    }
+
+    .yelloworder {
+        font-size: 28px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .discover {
+        font-size: 50px;
+    }
+
+    .even {
+        height: 86px;
+        margin-top: 20px;
+    }
+     /* .kaata{
+        height: 30px;
+        width: 40px;
+     } */
+     .lets{
+        font-size: 44px;
+        font-weight: 600;
+     }
+    .ipsum {
+        margin-top: 45px;
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+
+    .threeimg {
+        height: 33rem;
+    }
+
+    .oneimages {
+        height: 30rem;
+    }
+
+    .threeimages {
+        height: 30rem;
+    }
+    .threedot{
+        gap: 13px;
+        margin-top: 100px;
+    margin-bottom: 136px
+    }
+    .firstcircle{
+        height: 20px;
+        width: 20px;
+    }
+    .secondcircle{
+        height: 20px;
+        width: 20px;
+    }
+    .left1img {
+        height: 38rem;
+        margin-left: 90px;
+    }
+
+    .textimg1 {
+        width: 300px;
+
+    }
+
+    .topfood {
+        font-size: 40px;
+    }
+
+    .when {
+        font-size: 70px;
+        margin-top: 8px;
+    }
+
+    .fourcontainer {
+        display: flex;
+        gap: 54px;
+        justify-content: center;
+    }
+
+    .rcont {
+        gap: 30px;
+    }
+
+    .rtopimg {
+        height: 18rem;
+    }
+
+    .text2img {
+        width: 400px;
+    }
+
+    .try {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    .rbotimg {
+        height: 18rem;
+    }
+
+    .reservation {
+        font-size: 30px;
+    }
+
+    .bookp {
+        height: 86px;
+    }
+
+    .form {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-top: 40px;
+        /* margin-left: 640px; */
+    }
+
+    .x {
+        height: 60px;
+    }
+
+    input::placeholder {
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    #submitbtn {
+        font-size: 28px;
+    }
+    .footimg{
+        height: 500px;
+    }
+    .footer{
+        height: 500px;
+    }
+    .flo {
+        height: 100px;
+    }
+
+    .footsecond {
+        top: 186px;
+    }
+
+    .lorefoot {
+        font-size: 23px;
+    }
+
+    .zz {
+        font-size: 28px;
+    }
+
+    .copyright {
+        font-size: 23px;
+    }
+
+    .fb {
+        height: 40px;
+        width: 40px;
+    }
+
+    .fa {
+        font-size: 30px;
+    }
+
+    .bottomfooter {
+        /* top: 150px; */
+        bottom: 70px;
+    }
+}
+
+
+@media screen and (min-width:924px) and (max-width:1301px) {
+   .yelloworder{
+    font-size: 15px;
+   }
+    .top{
+        height: 480px;
+    }
+   .pati{
+    height: 63px;
+   }
+   .tamatar{
+    height: 80px;
+   }
+    .lsidewhite{
+        width: 30%;
+    }
+    .tophead{
+        height: 49px;
+        padding: 8px 0 0 20px;
+    }
+    .ls{
+        padding-right: 26px;
+    padding-top: 13px;
+    }
+    .exp{
+        font-size: 14px;
+    }
+    .no{
+        font-size: 19px;
+    }
+    .iphonepng{
+        height: 44px;
+    }
+    .f{
+        padding-top: 7px;
+    }
+    .secondtop{
+        font-size: 12px;
+        padding-top: 4px;
+        gap: 32px;
+        margin-right: 25px;
+    }
+    .tthird{
+        width: 60%;
+    }
+
+    
+    .leaf {
+        margin-left: 90px;
+        height: 50px;
+    }
+    .hung{
+        font-size: 57px;
+    }
+    .pasta {
+        margin-left: 44px;
+        height: 57px;
+    }
+    .dontimg{
+        height: 67px;
+    }
+    .lets{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    hr{
+        width: 50%;
+        margin-top: 26px;
+    }
+
+    .huur{
+        height: 34px;
+    }
+    .on{
+        height: 34px;
+    }
+    .orderbutton{
+        margin-top: 16px;
+        font-size: 19px;
+    }
+    .fourthtop{
+        width: 40%;
+        height: 400px;
+        text-align: center;
+        margin-top: 18px;
+    }
+    .tomato{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .kaata{
+        height: 180px;
+    }
+    .kata{
+        margin-left: -93px;
+    margin-top: -88px;
+    }
+
+
+    .chaw{
+        height: 80%;
+        text-align: center;
+    }
+    .secondcontainer{
+        height: 32rem;
+        margin-top: -15px;
+
+    }
+    .choosepng{
+        height: 33px;
+    }
+    .lor{
+        font-size: 12px;
+    }
+    .skin{
+        margin-top: 100px;
+    }
+    .ofood{
+        margin-top: -50px;
+    }
+    .ltd{
+        margin-top: 23px;
+        font-size: 15px;
+    }
+    .secondlor{
+        font-size: 11px;
+    }
+    .buttorder{
+        margin-top: 18px;
+    }
+    .shadow{
+        height: 50%;
+    }
+
+    .even{
+        font-size: 13px;
+    }
+
+    .ipsum{
+        font-size: 11px;
+    }
+    .oneimages{
+        height: 17rem;
+        width: 24%;
+    }
+
+    .fourcontainer{
+        margin-top: 60px;
+        gap: 25px;
+    }
+   .left1img{
+        height: 20rem;
+    }
+    .rcont{
+        gap: 27px;
+    }
+    .rtopimg {
+    height: 9rem;
+    }
+    .rbotimg {
+    height: 9rem;
+    }
+    .textimg1{
+        left: 105px;
+    }
+    .topfood{
+        font-size: 20px;
+    }
+    .when{
+        font-size: 40px;
+    }
+    .text2img{
+        left: 20px;
+    }
+    .try{
+        font-size: 30px;
+    }
+
+    .bookp{
+        height: 26px;
+    }
+    .form{
+        width: 57%;
+    gap: 27px 41px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 315px;
+
+    }
+    .footimg{
+        height: 315px;
+    }
+    .textfooter {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+    }
+    .footsecond{
+        top: 110px;
+    }
+    .lorefoot{
+        left: 50px;
+        font-size: 14px;
+    }
+    .location {
+        position: absolute;
+        right: 100px;
+    }
+    .line {
+        display: flex;
+        gap: 15px;
+    }
+    .zz {
+        font-size: 15px;
+        color: white;
+        padding-top: 6px;
+    }
+    .fa{
+        font-size: 15px;
+    }
+    .copyright {
+      font-size: 16px;
+        left: 53px;
+    }
+    .fb{
+        height: 25px;
+        width: 25px;
+    }
+   
+}
+@media screen and (min-width:642px) and (max-width:924px) {
+   
+    .top{
+        height: 365px;
+    }
+  
+    .lsidewhite{
+        width: 30%;
+    }
+    .tophead {
+        height: 40px;
+        padding: 8px 0 0 13px;
+    }
+    .ls {
+        padding-right: 20px;
+        padding-top: 8px;
+    }
+    .exp{
+        font-size: 11px;
+    }
+    .no{
+        font-size: 15px;
+    }
+    .iphonepng{
+        height: 38px;
+    }
+    .f{
+        padding-top: 7px;
+    }
+    .secondtop{
+        font-size: 10px;
+        padding-top: 3px;
+        gap: 28px;
+        margin-right: 20px;
+    }
+    .tthird{
+        width: 55%;
+    }
+
+    .thirdtop{
+        gap: 37px;
+    }
+    .leaf {
+        margin-left: 90px;
+        height: 45px;
+    }
+    .hung{
+        font-size: 40px;
+    }
+    .pasta {
+        margin-left: 44px;
+        height: 42px;
+    }
+    .dontimg{
+        height: 45px;
+    }
+    .dont {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .lets{
+        font-size: 15px;
+    margin-top: 12px;
+    }
+    hr{
+        width: 50%;
+        margin-top: 17px;
+    }
+    .thour{
+     margin-top: 17px;
+    }
+
+
+    .huur{
+        height: 34px;
+    }
+    .on{
+        height: 34px;
+    }
+    .orderbutton{
+        margin-top: 16px;
+        font-size: 16px;
+        white-space: nowrap;
+        width: 26%;
+    }
+    .fourthtop{
+        width: 45%;
+        height: 300px;
+        text-align: center;
+        margin-top: 18px;
+        margin-left: 0;
+    }
+    .tomato{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+    .pati{
+        height: 40px;
+        margin-left: -45px;
+       }
+       .tamatar{
+        height: 50px;
+       }
+
+    .kaata{
+        height: 180px;
+    }
+    .kata{
+        margin-left: -93px;
+    margin-top: -88px;
+    }
+
+
+    .chaw{
+        margin-top: 10px;
+        height: 90%;
+        text-align: center;
+    }
+    .secondcontainer{
+        height: 26rem;
+        margin-top: -40px;
+    }
+    .choosepng{
+        height: 27px;
+    }
+    .lor{
+        font-size: 10px;
+    }
+    .skin{
+        margin-top: 65px;
+        height: 65px;
+    }
+    .ofood{
+        margin-top: 15px;
+    }
+    .ltd{
+        margin-top: 23px;
+        font-size: 14px;
+    }
+    .yelloworder{
+        font-size: 15px;
+    }
+    .secondlor{
+        font-size: 9px;
+    }
+    .buttorder{
+        margin-top: 15px;
+    }
+    .shadow{
+        height: 37%;
+    }
+
+    .even{
+        height: 24px;
+    }
+
+    .ipsum{
+        font-size: 9px;
+    }
+    .threeimg{
+        height: 17rem;
+    }
+    .oneimages{
+        height: 15rem;
+        width: 24%;
+    }
+    .threeimages{
+        height: 15rem;
+    }
+
+    .threedot{
+        margin-top: 40px;
+    }
+    .firstcircle{
+        height: 8px;
+        width: 8px;
+    }
+    .secondcircle{
+        height: 8px;
+        width: 8px;
+    }
+    .fourcontainer{
+        margin-top: 30px;
+        gap: 25px;
+    }
+    .discover{
+        font-size: 20px;
+    }
+
+   .left1img{
+        height: 14rem;
+    }
+    .rcont{
+        gap: 27px;
+    }
+    .rtopimg {
+    height: 6rem;
+    }
+    .rbotimg {
+    height: 6rem;
+    }
+    .textimg1{
+        left: 120px;
+    }
+    .topfood{
+        font-size: 17px;
+    }
+    .when{
+        font-size: 33px;
+    }
+    .text2img{
+        left: 15px;
+        top: 10px;
+    }
+    .try{
+        font-size: 21px;
+    }
+    .text3img{
+        top: 9px;
+    left: 14px
+    }
+
+    .bookp{
+        height: 23px;
+    }
+    .fivecont{
+        margin-top: 45px;
+    }
+    .reservation{
+        font-size: 12px;
+        padding-bottom: 7px;
+    }
+    .form{
+        width: 61%;
+    gap: 21px 54px;
+    margin-top: 22px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 270px;
+
+    }
+    .footimg{
+        height: 270px;
+    }
+    .textfooter {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+    }
+    .footsecond{
+        top: 110px;
+    }
+    .lorefoot{
+        left: 50px;
+        font-size: 12px;
+    }
+    .location {
+        position: absolute;
+        right: 45px;
+    }
+    .line {
+        display: flex;
+        gap: 15px;
+    }
+    .zz {
+        font-size: 13px;
+        color: white;
+        padding-top: 6px;
+    }
+    .fa{
+        font-size: 15px;
+    }
+    .logofooter{
+        top: 26px;
+    }
+    .copyright {
+        font-size: 15px;
+        left: 53px;
+        top: 26px;
+    }
+    .fb{
+        height: 25px;
+        width: 25px;
+    }
+   
+}
+
+
+@media screen and (min-width:377px) and (max-width:642px) {
+   
+    .top{
+        height: 365px;
+    }
+    
+
+.forms {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+  
+
+.threeimage {
+    text-align: center;
+    margin-top: 45px;
+}
+    .lsidewhite{
+        width: 30%;
+    }
+    .tophead {
+        height: 36px;
+        padding: 6px 0 0 10px;
+    }
+    .ls {
+        padding-right: 9px;
+        padding-top: 6px;
+    }
+    .exp{
+        font-size: 11px;
+    }
+    .no{
+        font-size: 15px;
+    }
+    .iphonepng{
+        height: 38px;
+    }
+   
+   
+    .f{
+        padding-top: 7px;
+    }
+    .secondtop{
+       display: none;
+    }
+    .fa-bars{
+        color: black;
+        
+    }
+    .hamberger{
+       display: flex;
+    justify-content: right;
+    /* text-align: right; */
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    font-weight: 600;
+    padding-right: 6px;
+    gap: 14px;
+   
+    }
+    .tthird{
+        width: 100%;
+        z-index: 12;
+    }
+
+    .thirdtop{
+        gap: 16px;
+        margin-top: 30px;
+    }
+    .leaf {
+        margin-left: 0;
+        height: 48px;
+    }
+    .hung{
+        font-size: 40px;
+    }
+    .pasta {
+        margin-left: 10px;
+        height: 42px;
+    }
+    .dontimg{
+        height: 45px;
+    }
+    .dont {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .lets{
+        font-size: 15px;
+    margin-top: 12px;
+    }
+    hr{
+        width: 50%;
+        margin-top: 17px;
+    }
+    .thour{
+     margin-top: 17px;
+    }
+
+
+    .huur{
+        height: 34px;
+    }
+    .on{
+        height: 34px;
+    }
+    .orderbutton{
+        margin-top: 16px;
+        font-size: 16px;
+        white-space: nowrap;
+        width: 26%;
+    }
+    .fourthtop{
+        display: none;
+    }
+   
+    .kaata{
+        height: 155px;
+    }
+    .kata{
+        margin-left: -90px;
+    margin-top: -88px;
+    }
+
+
+    .chaw{
+        margin-top: 47px;
+        height: 40%;
+        text-align: center;
+    }
+    .secondcontainer{
+        height: 87rem;
+        margin-top: -20px;
+    }
+    .choosepng{
+        height: 27px;
+    }
+    .lor{
+        font-size: 10px;
+    margin-left: 39px;
+    margin-right: 39px;
+    }
+    .skin{
+        margin-top: 110px;
+        height: 93px;
+    }
+    
+    .ofood{
+        margin-top: 15px;
+        display: flex;
+
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+    .oneorder {
+        margin-top: -190px;
+        width: 100%;
+    }
+    #hideline{
+        height: 93px;
+        display: flex;
+        z-index: -8;
+    }
+    .twoorder {
+        margin-top: -190px;
+        width: 100%;
+    }
+    .threeorder {
+        margin-top: -190px;
+        width: 100%;
+    }
+    .ltd{
+        margin-top: 21px;
+        font-size: 19px;
+    }
+    .secondlor{
+        font-size: 13px;
+           margin-left: 60px;
+    margin-right: 60px;
+    }
+    .buttorder{
+        margin-top: 15px;
+    }
+    .yelloworder{
+        font-size: 15px;
+    }
+    .shadow{
+        height: 17%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .even{
+        height: 28px;
+        margin-top: 5px;
+    }
+
+
+    .ipsum{
+        font-size: 12px;
+        padding: 8px 19px 0 20px
+    }
+    .threeimg{
+        height: 13rem;
+    }
+    .oneimages{
+        height: 11rem;
+        width: 18%;
+    }
+    .threeimages{
+        width: 18%;
+    }
+    .twoimages{
+        width: 64%;
+    }
+    .threeimages{
+        height: 11rem;
+    }
+
+    .threedot{
+        margin-top: 33px;
+        margin-bottom: 45px;
+
+    }
+    .firstcircle{
+        height: 7px;
+        width: 7px;
+    }
+    .secondcircle{
+        height: 7px;
+        width: 7px;
+    }
+    .discover{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .fourcontainer{
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 30px; */
+        /* gap: 25px; */
+        margin: 30px 0 10px 0;
+        gap: 10px;
+    }
+    .lcont{
+        margin: 0;
+        padding: 0;
+    }
+
+   .left1img{
+    height: 12rem;
+    width: 85%;
+        margin: 0;
+    }
+    .rcont{
+        gap: 10px;
+        height: 13rem;
+        width: 100%;
+        margin: 0;
+    }
+    .rtopimg {
+    height: 6rem;
+    width: 85%;
+    }
+    .rbotimg {
+    height: 6rem;
+    width: 85%;
+    }
+    .textimg1{
+        left: 50px;
+    }
+    .topfood{
+        font-size: 17px;
+    }
+    .when{
+        font-size: 30px;
+    }
+    .text2img{
+        left: 50px;
+        top: 10px;
+        width: 125px;
+    }
+    .try{
+        font-size: 18px;
+    }
+    .text3img{
+        top: 12px;
+        left: 46px;
+    }
+
+    .bookp{
+        height: 26px;
+    }
+    .fivecont{
+        margin-top: 50px;
+    }
+    .reservation{
+        font-size: 15px;
+        padding-bottom: 7px;
+    }
+    .form{
+        grid-template-columns: repeat(1, 1fr);
+        width: 77%;
+    gap: 21px 54px;
+    margin-top: 22px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 333px;
+
+    }
+    .footimg{
+        height: 333px;
+    }
+    .flo{
+        height: 40px;
+    }
+    .textfooter {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    .footsecond{
+        top: 75px;
+    }
+    .lorefoot{
+        left: 29px;
+        font-size: 11px;
+        width: 80%;
+    }
+    br{
+        display: none;
+    }
+    .location {
+        position: absolute;
+        left: 23px;
+        top: 75px;
+        width: 80%;
+    }
+    .line {
+        display: flex;
+        gap: 8px;
+    }
+    .zz {
+        font-size: 11px;
+        color: white;
+        padding-top: 6px;
+    }
+    .fa{
+        font-size: 11px;
+    }
+    /* .bottomfooter{
+        /* bottom: 10px; 
+    } */
+    .logofooter {
+        left: 37px;
+        bottom: -14px;
+    }
+    .copyright {
+      font-size: 11px;
+      left: 26px;
+      bottom: -50px;
+       }
+    .fb{
+        height: 20px;
+        width: 20px;
+    }
+   
+}
+
+
+@media screen and (min-width:120px) and (max-width:377px) {
+   
+    .top{
+        height: 340px;
+    }
+    .threeimage {
+        /* text-align: center; */
+        margin-top: 45px;
+    }
+    .lsidewhite{
+        width: 30%;
+    }
+    .tophead {
+        height: 31px;
+        padding: 6px 0 0 10px;
+    }
+    .ls {
+        padding-right: 9px;
+        padding-top: 6px;
+    }
+    .exp{
+        font-size: 10px;
+    }
+    .no{
+        font-size: 14px;
+    }
+    .iphonepng{
+        height: 34px;
+    }
+    .f{
+        padding-top: 7px;
+    }
+    .secondtop{
+       display: none;
+    }
+    .fa-bars{
+        color: black;
+       
+    }
+    .faa{
+    font-size: 40px;
+    }
+    .hamberger{
+        display: flex;
+        justify-content: right;
+        text-align: right;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+        font-weight: 600;
+      gap: 10px;
+    padding-right: 6px;
+    }
+    .tthird{
+        width: 100%;
+        z-index: 12;
+    }
+
+    .thirdtop{
+        gap: 16px;
+        margin-top: 30px;
+    }
+    .leaf {
+        margin-left: 0;
+        height: 38px;
+    }
+    .hung{
+        font-size: 32px;
+    }
+    .pasta {
+        margin-left: 0px;
+        height: 38px;
+    }
+    .dontimg{
+        height: 37px;
+    }
+    .dont {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .lets{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    hr{
+        width: 50%;
+        margin-top: 17px;
+    }
+    .thour{
+     margin-top: 17px;
+    }
+
+
+    .huur{
+        height: 36px;
+    }
+    .on{
+        height: 36px;
+    }
+    .orderbutton{
+        margin-top: 16px;
+        font-size: 16px;
+        white-space: nowrap;
+        width: 30%;
+    }
+    .fourthtop{
+        display: none;
+    }
+   
+    .kaata{
+        height: 130px;
+    }
+    .kata{
+        margin-left: -70px;
+    margin-top: -65px;
+    }
+
+
+    .chaw{
+        margin-top: 47px;
+        height: 40%;
+        text-align: center;
+    }
+    .secondcontainer{
+        height: 82rem;
+        margin-top: 0px;
+    }
+    .choosepng{
+        height: 25px;
+    }
+    .lor{
+        font-size: 9px;
+    margin-left: 39px;
+    margin-right: 39px;
+    }
+    .skin{
+        margin-top: 110px;
+        height: 79px;
+    }
+    
+    .ofood{
+        margin-top: 15px;
+        display: flex;
+
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+    .oneorder {
+        margin-top: -160px;
+        width: 100%;
+    }
+    #hideline{
+        height: 93px;
+        display: flex;
+        z-index: -8;
+        margin-top: 76px;
+    }
+    .twoorder {
+        margin-top: -160px;
+        width: 100%;
+    }
+    .threeorder {
+        margin-top: -160px;
+        width: 100%;
+    }
+    .ltd{
+        margin-top: 21px;
+        font-size: 19px;
+    }
+    .secondlor{
+        font-size: 13px;
+        margin-left: 30px; 
+        margin-right: 30px;
+    }
+    .buttorder{
+        margin-top: 15px;
+    }
+    .yelloworder{
+        font-size: 15px;
+    }
+    .shadow{
+        height: 17%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .even{
+        height: 23px;
+        margin-top: 5px;
+    }
+
+
+    .ipsum{
+        font-size: 10px;
+        padding: 10px 38px 13px 38px;
+
+    }
+    .threeimg{
+        height: 11rem;
+    }
+    .oneimages{
+        height: 10rem;
+        width: 18%;
+        padding-top: 24px;
+    }
+    .twoimages{
+        width: 64%;
+    }
+    .threeimages{
+        height: 10rem;
+        padding-top: 24px;
+        width: 18%;
+    }
+
+    .threedot{
+        margin-top: 42px;
+        margin-bottom: 51px;
+    }
+    .firstcircle{
+        height: 7px;
+        width: 7px;
+    }
+    .secondcircle{
+        height: 7px;
+        width: 7px;
+    }
+    .discover{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .fourcontainer{
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 30px; */
+        /* gap: 25px; */
+        margin: 30px 0 10px 0;
+        gap: 10px;
+    }
+    .lcont{
+        margin: 0;
+        padding: 0;
+    }
+
+   .left1img{
+    height: 12rem;
+    width: 90%;
+        margin: 0;
+    }
+    .rcont{
+        gap: 10px;
+        height: 13rem;
+        width: 100%;
+        margin: 0;
+    }
+    .rtopimg {
+    height: 6rem;
+    width: 90%;
+    }
+    .rbotimg {
+    height: 6rem;
+    width: 90%;
+    }
+    .textimg1{
+        left: 30px;
+        width: 120px;
+    }
+    .topfood{
+        font-size: 15px;
+    }
+    .when{
+        font-size: 20px;
+    }
+    .text2img{
+        left: 30px;
+        top: 10px;
+        width: 125px;
+    }
+    .try{
+        font-size: 19px;
+    }
+    .text3img{
+        top: 12px;
+        left: 30px;
+    }
+
+    .bookp{
+        height: 20px;
+    }
+    .fivecont{
+        margin-top: 56px;
+    }
+    .forms{
+        margin-top: 8px;
+    }
+    .reservation{
+        font-size: 15px;
+        padding-bottom: 7px;
+    }
+    .form{
+        grid-template-columns: repeat(1, 1fr);
+        width: 77%;
+    gap: 21px 54px;
+    margin-top: 22px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 300px;
+
+    }
+    .footimg{
+        height: 300px;
+    }
+    .flo{
+        height: 40px;
+    }
+    .textfooter {
+        position: absolute;
+        top: 12px;
+        left: 24px;
+    }
+    .footsecond{
+        top: 60px;
+        width: 80%;
+    }
+    .lorefoot{
+        margin-top: 13px;
+        left: 24px;
+        font-size: 10px;
+        width: 94%;
+    }
+    
+    .location {
+        position: absolute;
+        left: 23px;
+        top: 76px;
+        width: 80%;
+        margin-top: 19px;
+    }
+
+    .line {
+        display: flex;
+        gap: 6px;
+    }
+    .zz {
+        font-size: 11px;
+        color: white;
+        padding-top: 5px;
+    }
+    .fa{
+        font-size: 10px;
+        margin-top: 0;
+    }
+    /* .bottomfooter{
+        bottom: 10px; 
+    } */
+    .logofooter {
+        left: 32px;
+        bottom: -28px;
+        gap: 14px;
+    }
+    br{
+        display: none;
+    }
+    .copyright {
+        font-size: 11px;
+        left: 24px;
+        bottom: -60px;  
+        display: flex;
+        justify-content: center;
+      }
+    .fb{
+        height: 20px;
+        width: 19px;
+    }
+ 
+   
+}
+@media screen and (min-width:120px) and (max-width:321px){
+    .secondcontainer{
+        height: 76rem;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:641px){
+
+    .secondcontainer{
+        height: 106rem;
+    }
+}
